@@ -1,47 +1,72 @@
-Project Title
-One Paragraph of project description goes here
+# ASSIGMENT_DEMO Repository
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Getting started
 
-Prerequisites
-What things you need to install the software and how to install them
+### Prerequisites
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+- Node
 
-Say what the step will be
+- GIT
 
-Give the example
-And repeat
+- IDE: Visual Studio code (development, preferred)
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+---
 
-Running the tests
-Explain how to run the automated tests for this system
+### Project structure
 
-Break down into end to end tests
-Explain what these tests test and why
+```
+│
+.vscode/
+│
+api-mock/
+│
+src/
+├── __tests__
+├── components
+     └── AppContainer.tsx
+│    └── AppComponent.tsx
+├── css
+│    └── custom.css
+│
+.babelrc/
+│
+.eslintrc.json/
+|
+.gitignore/
+│
+.prettierignore/
+|
+.prettierrc.yaml
+|
+index.html/
+|
+index.js/
+|
+package.json/
+|
+webpack.config.json/
+```
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+---
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
+### Setup Visual Studio Code for easier development
 
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+#### Running Code using Tasks
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+Run tasks by _Terminal_ -> _Run task_ -> _Select task_:
 
-Authors
+-- npm start
+
+To run JSON Server:
+
+-- cd api-mock
+-- json-server db.json
+
+#### Author
+
 Shweta Gupta - Complete work - shwetaGupta03
 See also the list of contributors who participated in this project.
 
-License
+#### License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details

@@ -1,7 +1,8 @@
 import * as React from "react";
 import axios from "axios";
 import "../css/custom.css";
-import { Message, Input, Button, Form, Modal } from "semantic-ui-react";
+import { Message, Input, Button, Form } from "semantic-ui-react";
+import AppComponent from "./AppComponent";
 
 class AppContainer extends React.Component {
   constructor(props) {
@@ -13,6 +14,8 @@ class AppContainer extends React.Component {
       isEmpty: false
     };
   }
+  // Make a request for a users data - Promise based HTTP client for the browser and node.js
+  // The componentDidMount() method runs after the component output has been rendered to the DOM.
   componentDidMount() {
     axios.get(`http://localhost:3000/users`).then(res => {
       const users = res.data;
@@ -21,6 +24,7 @@ class AppContainer extends React.Component {
   }
 
   onSearch() {
+    // To handle value after Clicking Search Button
     var userInput = document.getElementById("usernameInput");
     var userValue = userInput.value;
 
@@ -33,7 +37,7 @@ class AppContainer extends React.Component {
       isEmpty: userValue.length
     });
   }
-
+  // Renders the component
   render() {
     return (
       <div className="container">
@@ -54,9 +58,7 @@ class AppContainer extends React.Component {
             {!this.state.isEmpty ? (
               <Message warning header="Enter a value" />
             ) : this.state.showModal && this.state.requiredData ? (
-              <Message info>
-                {this.state.requiredData.bio ? this.state.requiredData.bio : ""}{" "}
-              </Message>
+              <AppComponent data={this.state.requiredData} />
             ) : (
               <Message error header="Invalid value" />
             )}

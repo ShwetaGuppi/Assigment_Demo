@@ -2,83 +2,43 @@
   "users": [
     {
       "username": "John@gmail.com",
+      "name": "John George",
+      "display_name": "John_George21",
       "id": 1,
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
+      "title": "Bootstrap & CSS Developer",
       "link": "http://iviewsource.com",
       "bio": "Ray Villalobos is a full-time author and teacher at lynda.com. He is author of the book, Exploring Multimedia for Designers. He has more than 20 years experience in developing and programming multimedia projects. Previously at Entravision Communications, he designed and developed a network of radio station and TV web sites. As a senior producer for Tribune Interactive, he was responsible for designing orlandosentinel.com and for creating immersive multimedia projects and Flash games for the site.",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
+      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow."
     },
     {
       "username": "Ray@gmail.com",
+      "name": "Ray Williams",
+      "display_name": "Ray_Williams02",
       "id": 2,
-      "category": "Backend End",
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
+      "title": "Python Developer",
       "link": "http://iviewsource.com",
       "bio": "fdghfjhgkjhkjhkkhj",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
+      "description": "Python is a dynamically typed programming language designed by Guido Van Rossum. Much like the programming language Ruby, Python was designed to be easily read by programmers."
     },
     {
       "username": "July@gmail.com",
+      "name": "July George",
+      "display_name": "July_George98",
       "id": 3,
-      "category": "Front End",
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
+      "title": "Homebrew Developer",
       "link": "http://iviewsource.com",
       "bio": "gfujhgjkhklnkl",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
+      "description": "Homebrew is a package manager for Apple's macOS operating system."
     },
     {
       "username": "Siya@gmail.com",
+      "name": "Siya Kapoor",
+      "display_name": "Siya_Kapoor14",
       "id": 4,
-      "category": "Backend End",
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
+      "title": "Jekyll",
       "link": "http://iviewsource.com",
       "bio": "Ray Villalobos is a full-time author and teacher at lynda.com. He is author of the book, Exploring Multimedia for Designers. He has more than 20 years experience in developing and programming multimedia projects. Previously at Entravision Communications, he designed and developed a network of radio station and TV web sites. As a senior producer for Tribune Interactive, he was responsible for designing orlandosentinel.com and for creating immersive multimedia projects and Flash games for the site.",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
-    }
-  ],
-  "userById": [
-    {
-      "username": "John@gmail.com",
-      "id": 1,
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
-      "link": "http://iviewsource.com",
-      "bio": "Ray Villalobos is a full-time author and teacher at lynda.com. He is author of the book, Exploring Multimedia for Designers. He has more than 20 years experience in developing and programming multimedia projects. Previously at Entravision Communications, he designed and developed a network of radio station and TV web sites. As a senior producer for Tribune Interactive, he was responsible for designing orlandosentinel.com and for creating immersive multimedia projects and Flash games for the site.",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
-    },
-    {
-      "username": "Ray@gmail.com",
-      "id": 2,
-      "category": "Backend End",
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
-      "link": "http://iviewsource.com",
-      "bio": "Ray Villalobos is a full-time author and teacher at lynda.com. He is author of the book, Exploring Multimedia for Designers. He has more than 20 years experience in developing and programming multimedia projects. Previously at Entravision Communications, he designed and developed a network of radio station and TV web sites. As a senior producer for Tribune Interactive, he was responsible for designing orlandosentinel.com and for creating immersive multimedia projects and Flash games for the site.",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
-    },
-    {
-      "username": "July@gmail.com",
-      "id": 3,
-      "category": "Front End",
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
-      "link": "http://iviewsource.com",
-      "bio": "Ray Villalobos is a full-time author and teacher at lynda.com. He is author of the book, Exploring Multimedia for Designers. He has more than 20 years experience in developing and programming multimedia projects. Previously at Entravision Communications, he designed and developed a network of radio station and TV web sites. As a senior producer for Tribune Interactive, he was responsible for designing orlandosentinel.com and for creating immersive multimedia projects and Flash games for the site.",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
-    },
-    {
-      "username": "Siya@gmail.com",
-      "id": 4,
-      "category": "Backend End",
-      "title": "Bootstrap & CSS Preprocessors",
-      "image": "http://barcampdeland.org/images/speaker_rayvillalobos.jpg",
-      "link": "http://iviewsource.com",
-      "bio": "Ray Villalobos is a full-time author and teacher at lynda.com. He is author of the book, Exploring Multimedia for Designers. He has more than 20 years experience in developing and programming multimedia projects. Previously at Entravision Communications, he designed and developed a network of radio station and TV web sites. As a senior producer for Tribune Interactive, he was responsible for designing orlandosentinel.com and for creating immersive multimedia projects and Flash games for the site.",
-      "description": "As responsive design continues to take over the web, front-end developers and designers have turned to preprocessors and layout systems that simplify their workflow. Lynda.com staff author Ray Villalobos will talk about using the Bootstrap framework from Twitter to scaffold and fast track your responsive design. He'll talk about how you can use CodeKit and LESS to put together designs in hours instead of days."
+      "description": "Jekyll is a blog-aware, site generator written in Ruby."
     }
   ]
 }

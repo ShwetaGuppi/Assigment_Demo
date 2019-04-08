@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --colors --hot --inline --open",
     "test:unit": "jest --coverage",
     "client:test": "NODE_ENV=test jest",
-    "client:test:watch": "NODE_ENV=test jest --watch"
+    "client:test:watch": "NODE_ENV=test jest --watch",
+    "prettify": "prettier --config .prettierrc.yaml --write \"**/*.{js,jsx,ts,tsx,json}\""
   },
   "author": "Shweta",
   "license": "ISC",
@@ -39,15 +40,22 @@
     "react-dom": "^16.8.5",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
+    "prettier": "^1.14.3",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "style-loader": "^0.23.1"
   },
   "jest": {
-    "rootDir": "./client/src",
+    "rootDir": "./src/__tests__",
     "moduleNameMapper": {
       "^.+\\.(css|less)$": "<rootDir>/CSSStub.js"
     },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
     "collectCoverage": true,
     "coverageDirectory": "<rootDir>/../../coverage",
     "verbose": true,
